@@ -4,8 +4,9 @@
 
 - Android network exit/IP inspection tool using public no-key services.
 - It reports IPv4/IPv6, ASN/ISP/location, DNS/WebRTC review links, connection quality, and a local risk score; it is not a commercial blacklist checker.
-- Private repository: https://github.com/matt-xb/network-risk-tester
+- Public repository: https://github.com/matt-xb/network-risk-tester
 - Gradle caches, IDE state, build output, and `local.properties` are excluded.
+- No open-source license has been selected yet; public visibility alone does not grant reuse rights.
 
 ## Verification
 
@@ -15,3 +16,4 @@
 ## Next Step
 
 - Build the debug variant and verify behavior on Wi-Fi, mobile data, IPv4-only, and IPv6-capable networks.
+- Select and add an open-source license before inviting external reuse or contributions.
