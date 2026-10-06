@@ -1,5 +1,13 @@
 # NetworkRiskTester
 
+## 版本与验收状态
+
+截至 2026-10-06，源码为 **0.1.0（code 1）**；[v0.1.0 调试 APK](https://github.com/matt-xb/network-risk-tester/releases/tag/v0.1.0) 为预发布版。交接见 [HANDOFF.md](HANDOFF.md)。
+
+源码构建需要 JDK 17、Android SDK 35，最低 Android 8.0（API 26）。在 Android Studio 配置本机 SDK 后运行 `.\gradlew.bat assembleDebug`，输出 `app/build/outputs/apk/debug/app-debug.apk`。
+
+风险分来自本地规则和第三方接口，是检测线索；不同接口可能冲突，不能单凭分数认定 IP 信誉。此前 APK 元数据检查不代表本轮已完成联网、DNS/WebRTC 或真机验收。仓库尚未选定开源许可证。
+
 不依赖 API Key 的网络 IP 体检工具。
 
 ## 定位
